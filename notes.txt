@@ -1,0 +1,10 @@
+    PRETRAINED MODELS AND FINETUNING - BETTER UNDERSTANDING
+
+    The work mainly consists in fine-tuning LLMs and measure their performances, leveraging the uses of Transfer learning to adapt pretrained models.
+    See the "transformers-multilabel classification" notebook for the procedure, using PyTorch. this needs computational power. 
+
+    However, i have found on hugging face some very simple code for finetuning of a BERT model. Colab even seems enough to do it. 
+
+
+    Now, the study of annotated datasets is relevant. How the information is stored?? Is that a dataframe, with one column for each class? 
+    Or are there more than one annotators, hence many annotations for each sentence? What to do in these cases? 
